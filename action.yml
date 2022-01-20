@@ -1,5 +1,7 @@
 name: "Coolname Generator"
 description: "generate a cool name like crazy-red-baboon"
+icon: activity
+color: blue
 inputs:
   separator:
     description: "What separator to use"
