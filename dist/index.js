@@ -1722,7 +1722,7 @@ try {
   console.log(`Generated name: ${output}`);
 
   // Set the output into the github action
-  core.setOutput("generated_name", output);
+  core.setOutput("name", output);
 } catch (error) {
   core.setFailed(error.message);
 }
