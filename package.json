@@ -1,0 +1,15 @@
+{
+  "name": "coolname-generator-action",
+  "version": "0.0.1",
+  "description": "Generates cool names for use in GitHub Actions",
+  "main": "index.js",
+  "repository": "git@github.com:thclark/coolname-generator-action.git",
+  "author": "Tom Clark",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "unique-names-generator": "^4.6.0"
+  }
+}

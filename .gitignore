@@ -38,7 +38,6 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -102,3 +101,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# GITHUB ACTIONS:
+# We want to commit node_modules because the action needs to download the whole package
+# Alternatively use vercel/ncc, see:
+#   https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action#commit-tag-and-push-your-action-to-github
+# node_modules/
