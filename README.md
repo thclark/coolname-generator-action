@@ -37,3 +37,8 @@ with:
 name: test generator output
 run: echo "latest,${{ steps.generator.outputs.name }}"
 ```
+
+## Development
+
+See the [build instructions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action#commit-tag-and-push-your-action-to-github)
+for node based actions in order to build `index.js` to `dist/index.js`
