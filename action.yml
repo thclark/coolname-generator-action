@@ -1,5 +1,5 @@
 name: "Really coolname Generator"
-description: "generate a cool name like crazy-red-baboon"
+description: "generate a cool name like crazy-red-baboon. Now with env vars fix!"
 inputs:
   separator:
     description: "What separator to use"
