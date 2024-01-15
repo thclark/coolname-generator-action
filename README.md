@@ -1,8 +1,12 @@
 # coolname-generator-action
 
+
+
 Generates coolnames like 'crazy-red-baboon' for use in tagging things with Github Actions
 
 [unique-names-generator](https://github.com/andreasonny83/unique-names-generator) is used to generate the names.
+
+NOTE: UPDATED TO AVOID ENV VARS.
 
 ## Parameters
 

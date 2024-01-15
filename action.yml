@@ -17,8 +17,8 @@ outputs:
   name:
     description: "The generated random name output."
 runs:
-  using: "node16"
-  main: "dist/index.js"
+  using: "node20"
+  main: "index.js"
 branding:
   icon: "activity"
   color: "blue"
