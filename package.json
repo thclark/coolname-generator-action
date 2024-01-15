@@ -1,6 +1,6 @@
 {
   "name": "coolname-generator-action",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Generates cool names for use in GitHub Actions",
   "main": "index.js",
   "repository": "git@github.com:cookiejest/coolname-generator-action.git",
