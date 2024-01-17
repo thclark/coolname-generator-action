@@ -1,4 +1,4 @@
-# coolname-generator-action
+# really-coolname-generator-action
 
 
 
@@ -6,7 +6,7 @@ Generates coolnames like 'crazy-red-baboon' for use in tagging things with Githu
 
 [unique-names-generator](https://github.com/andreasonny83/unique-names-generator) is used to generate the names.
 
-NOTE: UPDATED TO AVOID ENV VARS.
+NOTE: Based on the original 'coolname-generator' https://github.com/marketplace/actions/coolname-generator. This version is updated to avoid env vars.
 
 ## Parameters
 
@@ -27,11 +27,13 @@ NOTE: UPDATED TO AVOID ENV VARS.
 ## Example usage
 
 ```yml
-uses: thclark/coolname-generator-action@0.0.1
+name: Really coolname Generator
+uses: cookiejest/coolname-generator-action@0.0.9
+            
 ```
 
 ```yml
-uses: thclark/coolname-generator-action@0.0.1
+uses: cookiejest/coolname-generator-action@0.0.9
 id: generator
 with:
   separator: "_"
